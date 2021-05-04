@@ -17,7 +17,7 @@
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
     <h4> <a href="<?php echo site_url('Accueil.html'); ?>" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Accueil</a></h4>
     <h4> <a href="<?php echo site_url('covid-19/madagascar-'.$contenue['idSubject']).'.html';?>" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Madagascar</a></h4>
-    <h4> <a href="<?php echo site_url('covid-19/monde-2.html');?>" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Monde</a></h4>
+    <h4> <a href="<?php echo site_url('covid-19/monde-1.html');?>" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Monde</a></h4>
   </div>
 </div>
 
