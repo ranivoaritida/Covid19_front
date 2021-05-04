@@ -2,6 +2,9 @@
 <html lang="en">
 <title><?php echo $titre[0]['nom'] ?></title>
 <meta charset="UTF-8">
+<meta name="author" content="Ranivoaritida Sandy .">
+<meta name="description" content="Covid-19 a madagascar et dans le monde en 2021 .">
+<meta name="keywords" content="Covid-19, Madagascar , monde ">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="<?php echo site_url("assets/css/style.css"); ?>" rel="stylesheet">
 <link href="<?php echo site_url("assets/css/style1.css"); ?>" rel="stylesheet">
