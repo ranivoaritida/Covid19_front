@@ -30,7 +30,7 @@
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
 	  <h1 class="w3-hover-teal"><?php echo $titre[0]['nom'] ?></h1></br>
-      <h2 class="w3-text-teal"> <a href="<?php echo site_url('monde/index/'.$contenue[0]['idSubject']);?>"><?php echo $contenue[0]['titre'] ?></a></h2>
+      <h2 class="w3-text-teal"> <a href="<?php echo site_url('covid-19/madagascar-'.$contenue[0]['idSubject']).'.html';?>"><?php echo $contenue[0]['titre'] ?></a></h2>
 	  <h3 class="w3-text-grey"><strong><?php echo $contenue[0]['sousTitre'] ?></strong></h3>
       <p><?php echo $contenue[0]['content'] ?></p></div>
     <div class="w3-third w3-container">
@@ -41,7 +41,7 @@
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"> <a href="<?php echo site_url('monde/index/'.$contenue[1]['idSubject']);?>"><?php echo $contenue[1]['titre'] ?></a></h2>
+      <h2 class="w3-text-teal"> <a href="<?php echo site_url('covid-19/monde-'.$contenue[1]['idSubject']).'.html';?>"><?php echo $contenue[1]['titre'] ?></a></h2>
 	  <h3 class="w3-text-grey"><strong><?php echo $contenue[1]['sousTitre'] ?></strong></h3>
       <p><?php echo $contenue[1]['content'] ?></p></div>
     <div class="w3-third w3-container">
