@@ -11,4 +11,12 @@ class Accueil extends Base_Controller {
 		$this->load->view('Home', $data);
 
 	}
+	public function indexe($id) 
+	{
+		$data=array();
+		$this->load->model('Madagascar_model');
+		$data['contenue'] = $this->Madagascar_model->get_info($id);
+		$this->load->view('Madagascar', $data);
+
+	}
 }

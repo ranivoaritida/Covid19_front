@@ -53,8 +53,8 @@ $route['default_controller'] = 'Accueil';
 
 //routing
 $route['Accueil.html'] = 'Accueil';
-$route['covid-19/madagascar-(:any).html'] = 'madagascar/$1';
-$route['covid-19/monde-(:any).html'] = 'monde/$1';
+$route['covid-19/madagascar-(:any).html'] = 'Accueil/indexe/$1';
+$route['covid-19/monde-(:any).html'] = 'monde/index/$2';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
