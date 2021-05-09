@@ -7,11 +7,7 @@
 <meta name="keywords" content="Covid-19, Madagascar , monde ">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="<?php echo site_url("assets/css/style.css"); ?>" rel="stylesheet">
-<link href="<?php echo site_url("assets/css/style1.css"); ?>" rel="stylesheet">
 <link href="<?php echo site_url("assets/css/black-theme.css"); ?>" rel="stylesheet">
-<link href="<?php echo site_url("assets/css/family.css"); ?>" rel="stylesheet">
-<link href="<?php echo site_url("assets/css/eo.css"); ?>" rel="stylesheet">
-
 <body>
 
 <!-- Navbar -->
@@ -37,8 +33,8 @@
 	  <h3 class="w3-text-grey"><strong><?php echo $contenue[0]['sousTitre'] ?></strong></h3>
       <p><?php echo $contenue[0]['content'] ?></p></div>
     <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-32 w3-left"><img src="<?php echo site_url("assets/image/bouteille1.jpg"); ?>" alt="Italian Trulli"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-right"><img src="<?php echo site_url("assets/image/vaccin.jpg"); ?>" alt="Italian Trulli"></p>
     </div>
   </div>
 
@@ -48,8 +44,10 @@
 	  <h3 class="w3-text-grey"><strong><?php echo $contenue[1]['sousTitre'] ?></strong></h3>
       <p><?php echo $contenue[1]['content'] ?></p></div>
     <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-32 w3-left">
+	  <img src="<?php echo site_url("assets/image/eleve.jpg"); ?>" alt="eleve madagascar">
+	  </p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-right"><img src="<?php echo site_url("assets/image/madasick.jpg"); ?>" alt="malade"></p>
     </div>
   </div></br></div></br>
 
